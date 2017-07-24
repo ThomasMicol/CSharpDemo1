@@ -17,5 +17,14 @@ namespace ConsoleApp1
             greeter = theGreeter;
 
         }
+
+        public void go()
+        {
+            view.start();
+            greeter.setName(view.getString("What is your Name?"));
+            view.show(greeter.greet());
+            view.stop();
+
+        }
     }
 }

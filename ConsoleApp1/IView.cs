@@ -4,11 +4,11 @@ namespace ConsoleApp1
 {
     internal interface IView
     {
-        void Start();
-        void Stop();
-        string GetStarted(string prompt);
+        void start();
+        void stop();
+        string getStarted(string prompt);
         Int16 getInt(string prompt);
-        void Show<T>(T message);
+        void show<T>(T message);
 
 
     }
