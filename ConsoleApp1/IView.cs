@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         void start();
         void stop();
-        string getStarted(string prompt);
+        string getString(string prompt);
         Int16 getInt(string prompt);
         void show<T>(T message);
 
