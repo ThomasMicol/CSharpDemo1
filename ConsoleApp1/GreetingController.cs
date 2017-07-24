@@ -8,5 +8,14 @@ namespace ConsoleApp1
 {
     class GreetingController
     {
+        IView view;
+        Greeter greeter;
+
+        public GreetingController(IView theView, Greeter theGreeter)
+        {
+            view = theView;
+            greeter = theGreeter;
+
+        }
     }
 }
